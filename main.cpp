@@ -106,7 +106,7 @@ int main(int argc, char *argv[])
 {
     cMutex mtx_sync(cMutex::ON); // mutex potrzebny do inicializacji watkow
     cMutex mtx_stdout(cMutex::ON);
-// nowy komentarz
+// nowy komentarz 2
     try{
         // Wazne by refenrencje przekazac za pomoca std::ref()
         // halt() czeka na zakonczenie inicjalizacji popredniego watku
